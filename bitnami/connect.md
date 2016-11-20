@@ -60,20 +60,23 @@ Now we will create a new security application (“e.g. rails- <your-user-id>”)
 + Go to the "Network" tab on the top of the console
 + Select the "Security Applications" on the left side
 
-![](images/bitnami003.PNG)
+![](images/bitnamo003.PNG)
 
 + Hit the "Create Security Application button" and fill in following parameters:
-++ Name = rails-<your-user-id>
-++ Port Type = TCP
-++ Port Range Start = 3000
-++ Port Range End = 3000
++ Name = rails-<your-user-id>
++ Port Type = TCP
++ Port Range Start = 3000
++ Port Range End = 3000
++ Hit the create button
 
 ![](images/bitnami004.PNG)
 
-
-++ 	Name = rails-<your-user-id>
-++	Source: public-internet
-•	Destination: security list for your bitnami image (from above)
+Now we will create a new security rule : 
++ Go to the "Security Rules, on the left of the screen
++ 	Name = rails-<your-user-id>
++ Select the security application you just created
++ Select a security IP List, then select "public-internet" in the drop-down
++ Destination: use a security list, select the security list you wrote down  for your bitnami image (from above)
 This should have opened your Bitnami VM to traffic from the internet on port 3000.
 Check by browsing to the public ip of your image and port 3000.  You should see the “Riding the Rails” page:
  
