@@ -16,6 +16,7 @@ An extensive range of Bitnami images are available for deployment on the Oracle 
 In this exercise we’re going to walk through deployment of the Ruby image which includes both the Ruby runtime and Rails a popular web application framework that runs on it.
  
 The first thing that we need is to log into Bitnami.  Go to http://bitnami.com/sign_in
+
 ![](images/image004.png)
 
 You can either create a Bitnami account here or just use an external provider to log in (I’m going to log in with my Google account).
