@@ -44,11 +44,6 @@ OR you can download the required artifact and proceed straight to the deployment
 + [Create Oracle Developer Cloud Service project for SpringBoot application](springboot-sample/create.devcs.project.md)
 + [Create continuous build integration using Oracle Developer Cloud Service and Oracle Application Container Cloud Service](springboot-sample/devcs.accs.ci.md)
 
-####Extra ! Run Lightweight Java container (Tomcat) in the  Oracle Application Container Cloud Service####
-
-+ [Deploy Apache Tomcat based application to Oracle Application Container Cloud](accs-tomcat/README.md)
-+ [Scale up/down Application Container Service using user interface and PaaS Service Manager (PSM) Command Line Interface (CLI) tool](accs-psm/README.md)
-
 ---
 
 ## Want to do more exercises ?
