@@ -15,7 +15,6 @@ These 4 exercises have been specifically taylored to fit in the "Cloud Test Driv
 ### Prerequisites ###
 
 The workshop is intended to work with the Oracle Cloud account information handed out to you during the event.  You will need the following information to start working on these exercises :
-+  Get the following account details ready to complete the tutorial and replace to your values when it is required:
 
 + Oracle Cloud account **username** and **password**
 + Oracle Cloud **identity domain**
@@ -46,6 +45,8 @@ The content contains several independent modules that cover different aspects of
 
 + [Deploy Apache Tomcat based application to Oracle Application Container Cloud](accs-tomcat/README.md)
 + [Scale up/down Application Container Service using user interface and PaaS Service Manager (PSM) Command Line Interface (CLI) tool](accs-psm/README.md)
+
+---
 
 ## Want to do more exercises ?
 
