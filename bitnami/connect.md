@@ -83,5 +83,5 @@ Now we will create a new security rule :
 This should have opened your Bitnami VM to traffic from the internet on port 3000.
 Check by browsing to the public ip of your image and port 3000.  You should see the “Riding the Rails” page:
  
-
+![](images/image049.png)
 
