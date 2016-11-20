@@ -1,17 +1,43 @@
+![](../common/images/customer.logo.png)
+---
+### ORACLE Cloud Test Drive Event ###
+## Connecting to your Ruby instance on the Oracle Compute Cloud ##
 
-## Introduction##
+First download the SSH keys of your new instance from the Bitnami Console window (ppk and pem files)
 
-This script will guide you through the steps to connnect into the Ruby instance you jusst created.  For this  you will need a ssh shell on your PC.
+![](images/image101.png)
 
+Now make sure you have a ssh tool on your PC.  If you don't have this, you can download [putty](bin/putty.exe) for this.
 
-Then you can download the key and ssh into it
+Use the public IP address of your instance you got from the Bitnami console
+
+Go to the "SSH" and "Auth" menu, and select the private .ppk file you downloaded earlier
+
+when prompted for "login", enter : bitnami
+
+You should now have a command-line on your new instance !
+
+![](images/image043.png)
+
 If you run ifconfig, you will see the private ip of the instance and localhost.  Note that the private ip address is the same as the private ip address of the instance when viewed in the Oracle Cloud Compute console.
-Create a directory myapp, and cd into it.  Then run:
-$rails new firstapp
-This will create a directory firstapp, containing a skeleton rails application.
- 
++ Take a note of this private IP address
+
+Now execute following commands :
++ Create a directory myapp :  mkdir myapp
++ Move into this directory : cd myapp
++ Now create the new app called "firstapp" in Ruby : rails new firstapp
+
+This will create a directory "firstapp", containing a skeleton rails application.
+
+![](images/image045.png)
+
 Start the application, substituting the private ip address of your VM for the binding:
- 
+
++ Move into the firstapp directory : cd firstapp
++ Start the new application using the private IP address for your VM binding : bin/rails server --bind=10.196.165.214
+
+![](images/image047.png)
+  
 WEBrick should start.
 Leave the window open and the server running.
 In the OPC console:
