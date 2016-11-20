@@ -85,3 +85,4 @@ Check by browsing to the public ip of your image and port 3000.  You should see 
  
 ![](images/image049.png)
 
+You're done ! Your Ruby on Rails instance is up and running, and accessible from the internet
