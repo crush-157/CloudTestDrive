@@ -16,7 +16,7 @@ This tutorial demonstrates how to:
 ### Prerequisites ###
 
 + Oracle Public Cloud Service account including Java, Database and Storage Cloud Service
-+ Oracle Java Cloud Service uses Oracle Database Cloud Service to host the Oracle Fusion Middleware component schemas required by Oracle Java Required Files (JRF). Prior to creating an Oracle Java Cloud Service instance, [use your Oracle Database Cloud Service subscription to create a database deployment](../dbcs-create/README.md). As part of the instance creation process, Oracle Java Cloud Service provisions this database deployment with the Oracle JRF schemas.
++ Oracle Java Cloud Service uses Oracle Database Cloud Service to host the Oracle Fusion Middleware component schemas required by Oracle Java Required Files (JRF). For the Cloud Test Drive event, a shared Cloud Database Instance has already been set up for you, please refer to the documents handed out for the required system username/password.
 
 ### Steps ###
 
@@ -50,7 +50,8 @@ The last input page is the Service Details page. The following parameters have t
 + **Description**: any description for your service.
 + **Cluster size**: to save resources leave the default 1. Which means one managed server.
 + **Domain Partitions**: Create mutitenant instance. Select 1 to enable partitioning.
-+ **SSH Public Key**: public key which will be uploaded to the VM during the creation. It allows to connect to the VM through ssh connection using the private key. Use the same publicKey what was generated for Database Cloud Service instance. Click on Edit button and select [previously saved (during Database Cloud Service creation)](../dbcs-create/README.md) `GIT_REPO_LOCAL_CLONE/cloud-utils/publicKey`. You can also copy the content of *publicKey* into Key Value field. If you don't have or want to  to create different keypair select **Create a New Key** option and download the newly generated keypair for later usage.
++ **SSH Public Key**: public key which will be uploaded to the VM during the creation. It allows to connect to the VM through ssh connection using the private key. Select **Create a New Key** option and download the newly generated keypair for later usage.
+
 ![](images/07.png)
 + **Enable Administration Console**: because this instance will be available on public internet the default is that the WebLogic Admin console is not enabled. Do not forget to check in to get access to the Admin console.
 + **Username**: username of WebLogic administrator. For demo purposes you can use: weblogic
