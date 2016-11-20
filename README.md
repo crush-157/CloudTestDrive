@@ -10,7 +10,7 @@ This Oracle Cloud project contains the materials for the AppDev part of the Clou
 + Deploying a Node.js script onto the Application Container Cloud via the GUI
 + Setting up a Springboot project using the Developer Cloud Services and deploying this to Application Container Cloud.
 
-These 4 exercises have been taylored to fit in the "Cloud Test Drive" format, if you are interested to do more extensive exercises, please feel free to visit [Page name](http://github.com)
+These 4 exercises have been specifically taylored to fit in the "Cloud Test Drive" format, if you are interested to do more extensive exercises, please feel free to visit the [Cloud Native DevOps Workshop](https://github.com/oracle/cloud-native-devops-workshop) project on GitHub.
 
 ### Prerequisites ###
 
@@ -47,23 +47,13 @@ The content contains several independent modules that cover different aspects of
 + [Deploy Apache Tomcat based application to Oracle Application Container Cloud](accs-tomcat/README.md)
 + [Scale up/down Application Container Service using user interface and PaaS Service Manager (PSM) Command Line Interface (CLI) tool](accs-psm/README.md)
 
+## Want to do more exercises ?
 
-####Clean up the environment####
-
-+ [Delete Java Cloud, Database Cloud and Database Container Services using user interface](cleanup/cleanup-ui.md)
-+ [Delete Application Cloud Container Service using PaaS Service Manager (PSM) Command Line Interface (CLI)](cleanup/cleanup-psm.md)
+The above 4 exercises have been specifically taylored to fit in the "Cloud Test Drive" format, if you are interested to do more extensive work, please feel free to visit the [Cloud Native DevOps Workshop](https://github.com/oracle/cloud-native-devops-workshop) project on GitHub.  You will need to request your personal Trial account for executing those labs.
 
 ---
-
-####Customizing and personalizing the workshop content####
-
-+ [Customize and personalize the workshop materials](customize/README.md)
-
----
-
-## [Contributing](CONTRIBUTING.md)
-Pull Requests are currently not being accepted. See [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## [License](LICENSE.md)
 Copyright (c) 2014, 2016 Oracle and/or its affiliates
 The Universal Permissive License (UPL), Version 1.0
+
