@@ -71,9 +71,8 @@ The last input page is the Service Details page. The following parameters have t
 
 For more details about parameters see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-88BD737C-8DA9-419A-8DBF-489BDFF9C512). Click **Next**.
 
-The final page is the summary page about the configuration before submit the instance creation request. Click **Create** to start the provisioning of the new service instance.
+The final page is the summary page showing the chosen configuration before you submit the instance creation request. 
+** ATTENTION : We will not actually create a new instance, as this process can take up to 30'**
+So now click **Cancel** to abort the creation of this configuration.  You can use the existing JCS instance in this environment for taking a look at a running instance
 ![](images/09.png)
-
-When the request has been accepted the Java Cloud Service Console page appears and shows the new instance. The instance now is in Maintenance (Progress) mode. Click **In Progress** link to get more information about the status.
-![](images/10.png)
 
