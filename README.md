@@ -31,7 +31,7 @@ If you are finished early with the first exercise in this Lab, you can also expe
 + [Oracle Java Cloud Service Policy Based Auto Scaling](jcs-autoscale/README.md)
 
 #### AppDev Lab 2 : Deploy a Bitnami opensource image onto the Oracle Compute Cloud####
-+ [Create a personal account on bitnami](bitnami/createa_account.md) - you can skip this step if you already have an active account
++ [Create a personal account on bitnami](bitnami/create_account.md) - you can skip this step if you already have an active account
 + [Deploy a Bitnami Rubi image onto the Oracle Compute Cloud](bitnami/deploy_ruby.md)
 + [Connect to the newly created Rubi instance](bitnami/connect.md)
 
