@@ -1,10 +1,14 @@
 ![](common/images/customer.logo.png)
 ---
-# ORACLE Cloud-Native DevOps workshop #
+# ORACLE Cloud Test Drive Event - Application Development Labs #
 
 ## Introduction ##
 
-Oracle Cloud is the industry’s broadest and most integrated public cloud. It offers best-in-class services across software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS), and even lets you put Oracle Cloud in your own data center. Oracle Cloud helps organizations drive innovation and business transformation by increasing business agility, lowering costs, and reducing IT complexity. The workshop content shows different aspects of Application Development in the cloud with different set of Oracle Cloud Services.
+This Oracle Cloud project contains the materials for the AppDev part of the Cloud Test Drive events, using a series of Oracle Cloud Services from the IaaS and PaaS family.  More specifically, these labs cover the following exercises :
++ Setting up a Weblogic infrastructure in the cloud via the GUI wizard of the Java Cloud Services.
++ Deploying a Bitnami opensource image onto the Oracle Compute Cloud
++ Deploying a Node.js script onto the Application Container Cloud via the GUI
++ Setting up a Springboot project using the Developer Cloud Services and deploying this to Application Container Cloud.
 
 ### Prerequisites ###
 
