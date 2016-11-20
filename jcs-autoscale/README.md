@@ -49,5 +49,7 @@ Wait till the rule will be complete.
 ![](images/27.rule.ready.png)
 
                                                
+#### Putting load on the JCS instance and observing the acttual autoscaling ####
 
+The original version of this exercise comprised the creation of a load-generating application on the JCS instance, and thus observing the auto-scaling live.  This is outside of the scope of the Cloud Test Drive event, please feel free to test this on your own in the [original version](https://github.com/oracle/cloud-native-devops-workshop/blob/master/jcs-scale-ui/README.md) of this exercise.
 
