@@ -22,7 +22,7 @@ This tutorial demonstrates how to:
 
 [Sign in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). On the dashboard click the hamburger icon on the Java tile. Select **Open Service Console**.
 
-![](http://github.com/janleemans/CloudTestDrive/jcs-create/images/01.png)
+![](images/01.png)
 
 This is the Java Cloud Service Console page. If this is the first time opening Java console then Welcome page will appear. In this case click **Go to Console** button.
 
