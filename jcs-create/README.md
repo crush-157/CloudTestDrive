@@ -63,9 +63,9 @@ The last input page is the Service Details page. The following parameters have t
 + **Database Configuration / Password**: DBA admin password you provided during Database Cloud Service creation.
 + **Database Configuration / For Application Schema**: It is an option to add different database service instance accessibility. For example different database used by the application and different for Java Cloud Service instance repository. You can configure later another Database Cloud Service, but here it is easier to define.
 + **Provision Load Balancer**: the save resources for sample application we will not create Load Balancer instance. Leave default: No
-+ **Cloud Storage Container**: the name of the container for Database Cloud Service instance. The format is the following: Storage-IDENTITYDOMAIN/CONTAINERNAME. The container don't need to be created in advance, because -see below- there is an option to create automatically. Now give the same container what you provided (created) earlier for Database Cloud Service instance.
-+ **Cloud Storage User Name and Password**: the credentials for storage. Usually it is the same what was used to sign in to Oracle Cloud Services.
-+ **Create Cloud Storage Containers**: if the container defined above does not exist then check in.
++ **Cloud Storage Container**: the name of the container for Database Cloud Service instance. The format is the following: Storage-IDENTITYDOMAIN/CONTAINERNAME. The container don't need to be created in advance, because -see below- there is an option to create automatically. Now give a container name containing your user name.
++ **Cloud Storage User Name and Password**: the credentials for storage. This is the same username/password you used to sign in to Oracle Cloud Services.
++ **Create Cloud Storage Containers**: we will create a new container, so check this.
 
 ![](images/08.png)
 
