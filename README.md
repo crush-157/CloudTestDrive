@@ -35,9 +35,7 @@ If you are finished early with the first exercise in this Lab, you can also expe
 + [Connect to the newly created Rubi instance](bitnami/connect.md)
 
 #### AppDev Lab 3 : Deploy a Node.js application on ACCS####
-You can go through the creation of a Node.js and html5 
-+ [Create a Node.js application on your PC](simple_node/node_local.md)
-OR you can download the required artifact and proceed straight to the deployment on ACCS:
+Download the application artifacts and deploy the ZIP file on ACCS:
 + [Deploy a Node.js script onto the Application Container Cloud via the GUI](simple_node/node_deploy.md)
 
 #### AppDev Lab 4 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service####
