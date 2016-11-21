@@ -21,39 +21,48 @@ Now launch your Oracle Cloud Dashboard:
 
 ![](images/node002.PNG)
 
-On the Application Container Cloud overview page, you can see applications that are already created, and start the creation of new instances.
+On the Application Container Cloud overview page, you can see applications that are already created, and start the creation of new instances.  
++ Hit the "Create Application" button
 
 ![](images/node003.PNG)
 
-+ Hit the "Create Application" button
++ Now select the "Node" Application
 
 ![](images/node004.PNG)
 
-+ Now select the "Node" Application, which brings you to the Create Application screen.
+This brings you to the Create Application screen, where you can :
++ Enter a name for your application (for example mynode_<userxx>)
++ Select an Hourly subscription
++ Select to upload an archive.  Now you can select the "node-server.zip" file you downloaded earlier from your local filesystem
++ keep the defaults for nb. of instances and Memory to save resources for the other participants
++ Hit the "Create button
 
-![](images/node004.PNG)
+![](images/image009.png)
  
-After clicking the button Upload New, this popup appears:
+Your application is being created !
++ Click "OK".
+
+![](images/image010.png)
+
+You now see the status "Deployment being ceated"
+
+![](images/image019.png)
+
+You might have to hit the "Refresh buttons a few times, once your application has been deployed, the URL on the top of the screen will become enabled.
 
 ![](images/node005.PNG)
 
-+ Enter a name for your application and select Upload application archive
+Click on the link to see the application running:
 
-![](images/node006.PNG)
+![](images/image004.png)
 
-After specifying the new application archive, press OK.
-The file is processed:
- 
+Now go back to the Application screen, and click on  the "Deployments" tab on the left, which allows you to add service bindings and environment variables to the application, and to the "Administration" tab to analyze the logs and manage updates of the framework version.
 
- 
-and redeployment takes place:
- 
+![](images/image016.png)
 
-Log files are available for inspection. Anything written to the console from the Node.js application can be inspected from these files – that are written to the storage container associated with the JCS instance (I presume). At least I need to provide my Storage Cloud Service credentials in order to download the log file:
- 
- 
-From the downloaded zip-file I can inspect the logs:
- 
- 
+
+
+
+
 
 
