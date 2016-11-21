@@ -38,9 +38,9 @@ This brings you to the Create Application screen, where you can :
 + Hit the "Create button
 
 ![](images/image009.png)
- 
+
 Your application is being created !
-+ Click "OK".
++ Click "OK" to continue
 
 ![](images/image010.png)
 
@@ -52,13 +52,17 @@ You might have to hit the "Refresh buttons a few times, once your application ha
 
 ![](images/node005.PNG)
 
-Click on the link to see the application running:
+Click on the link to see the application running.  You now see the return payload of the service.
+
+
+
++ To see the real application, append "index" to the URL of this page
 
 ![](images/image004.png)
 
-Now go back to the Application screen, and click on  the "Deployments" tab on the left, which allows you to add service bindings and environment variables to the application, and to the "Administration" tab to analyze the logs and manage updates of the framework version.
+Now close this tab of your browser to go back to the Application screen, and click on  the "Deployments" tab on the left, which allows you to add service bindings and environment variables to the application, and to the "Administration" tab to analyze the logs and manage updates of the framework version.
 
-![](images/image016.png)
+
 
 
 
