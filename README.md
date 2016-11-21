@@ -40,7 +40,7 @@ You can go through the creation of a Node.js and html5
 OR you can download the required artifact and proceed straight to the deployment on ACCS:
 + [Deploy a Node.js script onto the Application Container Cloud via the GUI](simple_node/node_deploy.md)
 
-#### AppDev Lab 4 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service and Oracle Enterprise Pack For Eclipse####
+#### AppDev Lab 4 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service####
 + [Create Oracle Developer Cloud Service project for SpringBoot application](springboot-sample/create.devcs.project.md)
 + [Create continuous build integration using Oracle Developer Cloud Service and Oracle Application Container Cloud Service](springboot-sample/devcs.accs.ci.md)
 
