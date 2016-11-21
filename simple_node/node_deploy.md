@@ -37,30 +37,32 @@ This brings you to the Create Application screen, where you can :
 + keep the defaults for nb. of instances and Memory to save resources for the other participants
 + Hit the "Create button
 
-![](images/image009.png)
+![](images/node006.PNG)
 
 Your application is being created !
 + Click "OK" to continue
 
 ![](images/image010.png)
 
-You now see the status "Deployment being ceated"
+You now see the status "Creating Application"
 
-![](images/image019.png)
+![](images/node007.PNG)
 
 You might have to hit the "Refresh buttons a few times, once your application has been deployed, the URL on the top of the screen will become enabled.
 
-![](images/node005.PNG)
+![](images/node008.PNG)
 
-Click on the link to see the application running.  You now see the return payload of the service.
+Click on the link to see the application running.  You now only see the return payload of the service.
 
-
+![](images/node010.PNG)
 
 + To see the real application, append "index" to the URL of this page
 
-![](images/image004.png)
+![](images/node009.PNG)
 
-Now close this tab of your browser to go back to the Application screen, and click on  the "Deployments" tab on the left, which allows you to add service bindings and environment variables to the application, and to the "Administration" tab to analyze the logs and manage updates of the framework version.
+Now close this tab of your browser to go back to the Application screen, and:
++ explore the "Deployments" tab on the left, which allows you to add service bindings and environment variables to the application
++ navigate to the "Administration" tab to analyze the logs and manage updates of the framework version.
 
 
 
