@@ -4,7 +4,7 @@
 ----
 ## Deploy a simple Node.js application onto the Application Container Cloud using the GUI##
 
-Start by downloading the [zip file](raw/simple_node/bin/node-server.zip) containing the Node.js artifacts.
+Start by downloading the [zip file](bin/node-server.zip) containing the Node.js artifacts.
 Open the file to understand the content of this package : 
 + manifest.json : This file is specific to Application Container Cloud, and specifies how to start your application and the Node.js runtime version to use. Optionally, you can include notes and a release indication. 
 + server.js : the Node.js script running on the server
