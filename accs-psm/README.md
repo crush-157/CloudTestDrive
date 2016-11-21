@@ -1,6 +1,6 @@
 ![](../common/images/customer.logo.png)
 ---
-# ORACLE Cloud-Native DevOps workshop #
+# ORACLE Cloud Test Drive Events #
 ----
 ## Scale up/down Application Container Service using user interface and psm CLI tool ##
 
@@ -13,15 +13,41 @@ For more information about PSM see the [documentation](https://docs.oracle.com/c
 
 This tutorial demonstrates how to:
 
-+ how to install and configure PaaS Service Manager Command Line Interface (psm CLI)
 + scale up Application Cloud Service instance using user interface
++ how to install and configure PaaS Service Manager Command Line Interface (psm CLI)
 + scale down Application Cloud Service instance using psm command line interface tool.
 	
+#### Scale up Application Cloud Service instance using user interface ####
+
+Go to your Application Container Cloud Service console. If your console is not yet opened then sign in to [https://cloud.oracle.com/sign-in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com](https://cloud.oracle.com). On the dashboard open the Application Container Cloud Service Console.
+![](images/dashboard.accs.instances.png)
+
+Click the link to open the Application Container Cloud Service detail page of the service you created in the previous step
+
+![](images/accs.scale.00.png)
+
+The Overview page shows the assigned resources to the service. Modify RAM configuration from 1 to 2 GB. The Apply will appear, click the button. 
+
+![](images/accs.scale.01.png)
+
+Confirm the scaling operation, click Apply. The service will restart to apply changes. 
+
+![](images/accs.scale.02.png)
+
+During the restart a sand glass appears in the Application Container Cloud icon. The process takes few minutes. To update the pages click on refresh icon.
+
+![](images/accs.scale.03.png)
+
+Once the restart ready the sand glass will disappear and the RAM size will show the requested value.
+
+![](images/accs.scale.04.png)
+
+## OPTIONAL extra steps using the Command-line tool to scale down the instance##
+
 ### Prerequisites ###
 
 - [cURL command-line tool](http://curl.haxx.se/download.html). Usually cURL is already included in most of the Linux distributions and easy to install to Windows. You can use other tool to invoke REST API to download the latest version of the tool. (To install cURL is not scope of this documentation.)
 - Python 3.3 or later. (To install Pyhton is not scope of this documentation.)
-+ [Deploy Tomcat sample application to Oracle Application Container Cloud](accs-tomcat/README.md)
 
 ### Steps ###
 
@@ -141,31 +167,6 @@ View the available services in your configured cloud account. For example:
 
 	[oracle@localhost u01]$ 
 
-#### Scale up Application Cloud Service instance using user interface ####
-
-Go to your Application Container Cloud Service console. If your console is not yet opened then sign in to [https://cloud.oracle.com/sign-in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com](https://cloud.oracle.com). On the dashboard open the Application Container Cloud Service Console.
-![](images/dashboard.accs.instances.png)
-
-Click the link **tomcat** to open Application Container Cloud Service detail page.
-
-![](images/accs.scale.00.png)
-
-The Overview page shows the assigned resources to the service. Modify RAM configuration from 1 to 2 GB. The Apply will appear, click the button. 
-
-![](images/accs.scale.01.png)
-
-Confirm the scaling operation, click Apply. The service will restart to apply changes. 
-
-![](images/accs.scale.02.png)
-
-During the restart a sand glass appears in the Application Container Cloud icon. The process takes few minutes. To update the pages click on refresh icon.
-
-![](images/accs.scale.03.png)
-
-Once the restart ready the sand glass will disappear and the RAM size will show the requested value.
-
-![](images/accs.scale.04.png)
-
 #### Scale down Application Cloud Service instance using psm command line interface tool ####
 
 To scale down (back) the instance you will use psm tool. Open a terminal and list your application(s) deployed on Application Container Cloud Service. Execute the `psm accs apps` command to list the applications.
@@ -207,7 +208,7 @@ To scale down (back) the instance you will use psm tool. Open a terminal and lis
 	}
 	[oracle@localhost cloud.demos]$ 
 
-You should see the **tomcat** application and the previously configured 2 GB memory. Now use the tool the scale down the service. First check what is the usage of the `accs scale` command. 
+You should see your application and the previously configured 2 GB memory. Now use the tool the scale down the service. First check what is the usage of the `accs scale` command. 
 
 	[oracle@localhost cloud.demos]$ psm accs scale help
 	
@@ -341,4 +342,4 @@ If you could catch the restart process you can see the current ongoing operation
 	}
 	[oracle@localhost cloud.demos]$ 
 
-Now the **tomcat** application is ready again to serve requests using 1GB memory.
+Now the application is ready again to serve requests using 1GB memory.
