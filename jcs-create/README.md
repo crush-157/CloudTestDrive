@@ -1,6 +1,6 @@
 ![](../common/images/customer.logo.png)
 ---
-# ORACLE Cloud-Native DevOps workshop #
+# ORACLE Cloud Test Drive Events #
 
 ## Create Java Cloud Service instance using user interface ##
 
