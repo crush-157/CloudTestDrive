@@ -1,6 +1,6 @@
 ![](../common/images/customer.logo.png)
 ---
-# ORACLE Cloud-Native DevOps workshop #
+# ORACLE Cloud Test Drive Events #
 -----
 ## Oracle Java Cloud Service Policy Based Auto Scaling ##
 
