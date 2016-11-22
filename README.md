@@ -25,21 +25,21 @@ NOTE: Before you start to use your new Oracle Public Cloud services make sure th
 
 ----
 
-#### AppDev Lab 1 : Creating and Managing a JCS instance throught the GUI####
+#### AppDev Lab 3.1 : Creating and Managing a JCS instance throught the GUI####
 + [Create Java Cloud Service Instance using user interface](jcs-create/README.md)
 If you are finished early with the first exercise in this Lab, you can also experiment a bit more with the existing JCS instance in the Cloud Test Drive environment:
 + [Oracle Java Cloud Service Policy Based Auto Scaling](jcs-autoscale/README.md)
 
-#### AppDev Lab 2 : Deploy a Bitnami opensource image onto the Oracle Compute Cloud####
+#### AppDev Lab 3.2 : Deploy a Bitnami opensource image onto the Oracle Compute Cloud####
 + [Deploy a Bitnami Rubi image onto the Oracle Compute Cloud](bitnami/create_account.md)
 + [Connect to the newly created Rubi instance](bitnami/connect.md)
 
-#### AppDev Lab 3 : Deploy a Node.js application on ACCS####
+#### AppDev Lab 4.1 : Deploy a Node.js application on ACCS####
 Download the application artifacts and deploy the ZIP file on ACCS:
 + [Deploy a Node.js script onto the Application Container Cloud via the GUI](simple_node/node_deploy.md)
 + [Scale up/down Application Container Service using user interface and PaaS Service Manager (PSM) Command Line Interface (CLI) tool](accs-psm/README.md)
 
-#### AppDev Lab 4 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service####
+#### AppDev Lab 4.2 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service####
 + [Create Oracle Developer Cloud Service project for SpringBoot application](springboot-sample/create.devcs.project.md)
 + [Create continuous build integration using Oracle Developer Cloud Service and Oracle Application Container Cloud Service](springboot-sample/devcs.accs.ci.md)
 
