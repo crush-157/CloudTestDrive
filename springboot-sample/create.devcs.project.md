@@ -38,7 +38,7 @@ This tutorial demonstrates how to:
 Sign in to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). First select your datacenter then provide the identity domain and credentials. After a successful login you will see your Dashboard. Find the Developer services tile and click the hamburger icon. In the dropdown menu click **Open Service Console**.
 ![](images/01.dashboard.png)
 
-Log in to Oracle Developer Cloud Services and create a new project.
+On the Developer Cloud Service console, you should have access to the project "CloudTestDrive".
 
 ![alt text](images/02.new.project.png)
 
