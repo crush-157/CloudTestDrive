@@ -2,14 +2,19 @@
 ---
 # ORACLE Cloud Test Drive Event#
 ----
-## Deploy a simple Node.js application onto the Application Container Cloud using the GUI##
+## Deploy a Node.js application with Oracle JET UI onto the Application Container Cloud using the GUI##
 
-Start by downloading the [zip file](bin/node-server.zip) containing the Node.js artifacts of the application.  This is a very elementary Message Board application, allowing you to create topics and post entries on these topics.
+Start by downloading the [zip file](bin/node-server-jet.zip) containing the Node.js and Oracle JET artifacts of the application. 
+
+The application is built using a Node.js application framework called Express.js. Express.js is a popular Node.js framework that helps us to organize our web application into an MVC architecture.
 
 Open the file to understand the content of this package : 
 + manifest.json : This file is specific to Application Container Cloud, and specifies how to start your application and the Node.js runtime version to use. Optionally, you can include notes and a release indication. 
-+ server.js : the Node.js script running on the server
-+ index2.htlm : a html5 script containing client-side javascript calling the server-side application
++ bin : Express.js specific folder that contains the start script.
++ node_modules : This folder contains, as the word suggests, node modules that might be needed to run our application, such as Express.js
++ public : Express.js specific folder. In this folder we have inserted an Oracle JET sample application called Work Better. This folder is mostly made up of HTML, CSS and JavaScript files. 
++ routes : Express.js specific folder that contains some default routes for the server resources. For example, adding /users to the base URL returns a sample response.
++ app.js : 
 
 ![](images/node001.PNG)
 
