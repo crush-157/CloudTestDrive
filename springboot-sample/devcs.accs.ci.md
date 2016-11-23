@@ -46,9 +46,11 @@ This tutorial demonstrates how to:
 [Sign in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). First select your datacenter then provide the identity domain and credentials. After a successful login you will see your Dashboard. Find the Developer services tile and click the hamburger icon. In the dropdown menu click **Open Service Console**.
 ![](images/01.dashboard.png)
 
-Select your Oracle Developer Cloud Service Project which was created using inital Git repository and contains Spring Boot sample application's sources.
+Select the Oracle Developer Cloud Service Project called "CloudTestDrive" and select the repository called "springboot-<userxx> which was created in the previous step
 
-![](images/20.open.devcs.project.png)
+![](images/dev004.png)
+
+**Attention : in the Cloud Test Drive event, multiple users will be using the same Developer Project, but using a different repository.  Make sure to post-fix all objects you create in this exercise with "<userxx>", where xx is your user number !**
 
 ### Configure build job for Spring Boot sample application ###
 
