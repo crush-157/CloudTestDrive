@@ -40,9 +40,19 @@ Sign in to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in).
 
 On the Developer Cloud Service console, you should have access to the project "CloudTestDrive".
 
-![alt text](images/02.new.project.png)
+![alt text](images/dev001.png)
 
-Enter the name of the project and set the desired properties. Click **Next** and select *Initial Repository* as template.
++ Open the project by clicking on the name "CloudTestDrive
++ Now create a new repository using the green button
+
+![](images/dev002.png)
+
+Enter the name of the repository, containing your username <userxx> and set the properties:
+. Click **Next** and select *Initial Repository* as template.
+
+![](images/dev002.png)
+
+
 
 ![](images/03.select.template.png)
 
