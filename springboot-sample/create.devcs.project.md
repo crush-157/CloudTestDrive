@@ -40,26 +40,20 @@ Sign in to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in).
 
 On the Developer Cloud Service console, you should have access to the project "CloudTestDrive".
 
-![alt text](images/dev001.png)
+![](images/dev001.png)
 
 + Open the project by clicking on the name "CloudTestDrive
 + Now create a new repository using the green button
 
 ![](images/dev002.png)
 
-Enter the name of the repository, containing your username <userxx> and set the properties:
-. Click **Next** and select *Initial Repository* as template.
++ Enter the name of the repository, containing your username <userxx>
++ Choose the option *Import existing repository*
++ Enter or copy the *https://github.com/janleemans/CloudTestDrive.git* repository address.
++ Click **Create**
 
-![](images/dev002.png)
+![](images/dev003.png)
 
+The repository will be created, you will see the progress of the import.
 
-
-![](images/03.select.template.png)
-
-Click **Next** and on the Properties page select *Import existing repository*.
-Enter or copy the *https://github.com/oracle/cloud-native-devops-workshop.git* repository address.
-
-![](images/04.import.repository.png "Import external repository")
-
-Now click **Finish** to create the project and to clone the specified repository.
-
+You have now created a new repository with seeded content from the github repository.
