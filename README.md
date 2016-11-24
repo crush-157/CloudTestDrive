@@ -36,7 +36,7 @@ If you are finished early with the first exercise in this Lab, you can also expe
 
 #### AppDev Lab 4.1 : Deploy a Node.js application on ACCS####
 Download the application artifacts and deploy the ZIP file on ACCS:
-+ [Deploy a Node.js script onto the Application Container Cloud via the GUI](simple_node/node_deploy.md)
++ [Deploy a Node.js script onto the Application Container Cloud via the GUI](node_jet/node_deploy.md)
 + [Scale up/down Application Container Service using user interface and PaaS Service Manager (PSM) Command Line Interface (CLI) tool](accs-psm/README.md)
 
 #### AppDev Lab 4.2 : Support SpringBoot application development lifecycle using Oracle Developer Cloud Service, Application Container Cloud Service####
