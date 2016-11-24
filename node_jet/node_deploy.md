@@ -4,12 +4,13 @@
 ----
 ## Deploy a Node.js application with Oracle JET UI onto the Application Container Cloud using the GUI##
 
-Start by downloading the [zip file](bin/node-server-jet.zip) containing the Node.js and Oracle JET artifacts of the application. 
+Start by downloading the [zip file](bin/node-jet-server.zip) containing the Node.js and Oracle JET artifacts of the application. 
 
 The application is built using a Node.js application framework called Express.js. Express.js is a popular Node.js framework that helps us to organize our web application into an MVC architecture.
 
 Open the file to understand the content of this package : 
 + manifest.json : This file is specific to Application Container Cloud, and specifies how to start your application and the Node.js runtime version to use. Optionally, you can include notes and a release indication. 
++ package.json : This file serves as documentation for what packages (and versions) our project depends on.
 + bin : Express.js specific folder that contains the start script.
 + node_modules : This folder contains, as the word suggests, node modules that might be needed to run our application, such as Express.js
 + public : Express.js specific folder. In this folder we have inserted an Oracle JET sample application called Work Better. This folder is mostly made up of HTML, CSS and JavaScript files. 
