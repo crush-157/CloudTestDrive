@@ -43,13 +43,17 @@ For more details about subscription types see the [documentation](https://docs.o
 ![](images/create.jcs.03.png)
 </kbd>
 
-Select the latest 12c Software Release.
++ Select the latest 12c Software Release.
 
+<kbd>
 ![](images/05.png)
+</kbd>
 
 Select the Enterprise Edition software edition.
 
+<kbd>
 ![](images/06.png)
+</kbd>
 
 The last input page is the Service Details page. The following parameters have to be provided:
 	
