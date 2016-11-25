@@ -34,7 +34,10 @@ This is the Java Cloud Service Console page. If this is the first time opening J
 ![](images/03.png)
 </kbd>
 
-Select subscription type. Select the fully managed Oracle Java Cloud Service and the desired billing format. For more details about subscription types see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-98DD6CE1-480F-4AA9-8131-A1D3D274440F)
+Now select the subscription type. 
++ Select the fully managed Oracle Java Cloud Service
++ Hourly billing format 
+For more details about subscription types see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-98DD6CE1-480F-4AA9-8131-A1D3D274440F)
 
 <kbd>
 ![](images/create.jcs.03.png)
