@@ -40,7 +40,7 @@ Now select the subscription type.
 For more details about subscription types see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-98DD6CE1-480F-4AA9-8131-A1D3D274440F)
 
 <kbd>
-![](images/create.jcs.03.png)
+![](images/jcs001.png)
 </kbd>
 
 + Select the latest 12c Software Release.
@@ -49,7 +49,7 @@ For more details about subscription types see the [documentation](https://docs.o
 ![](images/05.png)
 </kbd>
 
-Select the Enterprise Edition software edition.
++ Select the Enterprise Edition software edition.
 
 <kbd>
 ![](images/06.png)
