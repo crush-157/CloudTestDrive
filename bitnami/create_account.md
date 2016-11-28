@@ -58,7 +58,7 @@ If you’re doing this for the first time you will need to set up your Bitnami v
 
 ![](images/image027.png)
  
-Enter the Oracle Cloud identity domain (eg gse00002323), and your Oracle Cloud credentials (<Userxx> and password), and the Compute REST API endpoint you noted down earlier in the exercise, then click “Continue”:
+Enter the Oracle Cloud identity domain (eg gse000023xx), and your Oracle Cloud credentials (<Userxx> and password), and the Compute REST API endpoint you noted down earlier in the exercise, then click “Continue”:
 
 ![](images/image033.png)
 
