@@ -47,7 +47,7 @@ Leave the window open and the server running.
 
 Now go back to your Oracle Cloud Console, 
 + Go to the Compute console:
-+ Locate your instance - use the public IP address you received on the Bitnami console
++ Locate your instance - use the public IP address you received on the Bitnami console. If you can't find your instace in the list, try changing the Site in the top right corner of the browser.
 
 ![](images/bitnami001.PNG)
 
