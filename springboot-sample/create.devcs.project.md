@@ -47,7 +47,7 @@ On the Developer Cloud Service console, you should have access to the project "C
 
 ![](images/dev002.png)
 
-+ Enter the name of the repository : springboot-<userxx>
++ Enter the name of the repository : springboot-userxx
 + Choose the option *Import existing repository*
 + Enter or copy the *https://github.com/janleemans/CloudTestDrive.git* repository address.
 + Click **Create**
