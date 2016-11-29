@@ -37,7 +37,7 @@ On the Application Container Cloud overview page, you can see applications that 
 ![](../simple_node/images/node004.PNG)
 
 This brings you to the Create Application screen, where you can :
-+ Enter a name for your application (for example mynode_<userxx>)
++ Enter a name for your application (for example mynode_userxx)
 + Select an Hourly subscription
 + Select to upload an archive.  Now you can select the "node-jet-server.zip" file you downloaded earlier from your local filesystem
 + keep the defaults for nb. of instances and Memory to save resources for the other participants
