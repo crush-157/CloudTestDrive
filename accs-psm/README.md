@@ -52,7 +52,7 @@ Once the restart ready the sand glass will disappear and the RAM size will show 
 ### Steps ###
 
 #### Download the latest version of command line tool ####
-First identify your REST API server name. If you log in to your Oracle cloud account with a US data center, use **psm.us.oraclecloud.com** otherwise, use **psm.europe.oraclecloud.com**.
+First identify your REST API server name, in our case it will be **psm.europe.oraclecloud.com**.
 
 Use cURL to send a request. The format is:
 
