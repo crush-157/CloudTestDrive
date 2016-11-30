@@ -22,11 +22,12 @@ If you are taking part in the Cloud Test Drive Event, you already should have a 
 
 ### Steps ###
 
-
 #### Create Auto Scaling Rule ####
 
-Create rule for Java Cloud Service which triggers auto scaling based on the defined criteria. Go to the Java Cloud Service instance details page and click **Topology** on the left menu. Click **Add Node** and select **Auto Scaling** item.
-![](images/25.topology.add.node.png)
+Create rule for Java Cloud Service which triggers auto scaling based on the defined criteria. Go back to the service console for the Java Cloud Service instances. Press the hyperlink of the instance name.
+![](images/instances.png)
+Click **Topology** on the left menu. Click **Add Node** and select **Auto Scaling** item.
+![](images/scaling.png)
 
 On the Rules page click **Create Rule**. 
 ![](images/26.create.rule.png)
@@ -41,7 +42,7 @@ Define the rule parameters.
 + VM instances: **Any**
 + Cool down period: 30 (this is the minimum)
 
-Click **Create**.
+Click **Create**. **Please note!** If another attendee already created the same Rule, you will get an error and will not be able to create the rule. That is OK since we are not gonna put the rule in to use in this lab anyway.
 
 ![](images/27.rule.details.png)
 
