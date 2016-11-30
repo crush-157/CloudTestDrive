@@ -25,7 +25,7 @@ If you are taking part in the Cloud Test Drive Event, you already should have a 
 #### Create Auto Scaling Rule ####
 
 Create rule for Java Cloud Service which triggers auto scaling based on the defined criteria. Go back to the service console for the Java Cloud Service instances. Press the hyperlink of the instance name.
-![](images/instances.png)
+![](images/instance.png)
 Click **Topology** on the left menu. Click **Add Node** and select **Auto Scaling** item.
 ![](images/scaling.png)
 
