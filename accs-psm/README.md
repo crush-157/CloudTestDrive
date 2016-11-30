@@ -5,7 +5,7 @@
 ## Scale up/down Application Container Service using user interface and psm CLI tool ##
 
 ### About this tutorial ###
-Oracle Application Container Cloud Service includes Oracle Java SE Cloud Service and Oracle Node Cloud Service. It provides a lightweight infrastructure so that you can run Java SE 7, Java SE 8, and Node.js applications in the Oracle Cloud.
+Oracle Application Container Cloud Service includes Oracle Java SE Cloud Service, Oracle Node Cloud Service as well as Oracle PHP Cloud Service. It provides a lightweight infrastructure so that you can run Java SE 7, Java SE 8, Node.js and PHP applications in the Oracle Cloud.
 
 Oracle offers a PaaS Service Manager (PSM) Command Line Interface (CLI) that enables users of Oracle Application Container Cloud Service, Oracle Database Cloud Service, and Oracle Java Cloud Service to create, monitor and manage their service instances from a command shell or script.
 
