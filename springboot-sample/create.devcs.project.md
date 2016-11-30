@@ -25,7 +25,7 @@ Oracle Developer Cloud Service is available as a web interface accessible from a
 
 This tutorial demonstrates how to:
 
-- create Oracle Developer Cloud Service project using existing external Git repository
+- Configure an Oracle Developer Cloud Service Project to be using an existing external Git repository
 
 ### Prerequisites ###
 
