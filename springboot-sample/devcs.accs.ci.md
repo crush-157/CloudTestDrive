@@ -5,7 +5,7 @@
 ## Deploy SpringBoot demo application to Application Container Cloud Services using Developer Cloud Services ##
 
 ### About this tutorial ###
-**Oracle Application Container Cloud Service** includes Oracle Java SE Cloud Service and Oracle Node Cloud Service. It provides a lightweight infrastructure so that you can run Java SE 7, Java SE 8, and Node.js applications in the Oracle Cloud.
+**Oracle Application Container Cloud Service** includes Oracle Java SE Cloud Service, Oracle Node Cloud Service as well as Oracle PHP Cloud Service. It provides a lightweight infrastructure so that you can run Java SE 7, Java SE 8, Node.js and PHP applications in the Oracle Cloud.
 
 **Oracle Developer Cloud Service** is a cloud-based software development Platform as a Service (PaaS) and a hosted environment for your application development infrastructure. It provides an open-source standards-based solution to manage the application development life cycle effectively through integration with Hudson, Git, Maven, issues, and wikis. Using Oracle Developer Cloud Service, you can commit your application source code to the Git repository on the Oracle Cloud, track assigned issues and defects online, share information using wiki pages, peer review the source code, and monitor project builds. After successful testing, you can deploy the project to Oracle Java Cloud Service - SaaS Extension, publicly available Oracle Java Cloud Service instances, Oracle Application Container Cloud Service instances, or to an on-premise production environment.
 
@@ -60,7 +60,7 @@ Select **Build** item on the left side menu and click the **New Job** button.
 
 ![alt text](images/05.new.job.png "Create new build job")
 
-Enter a name for the new job. Select the *Create a free-style job* option and save.
+Enter a name for the new job, again, please prefix it so that you can identify it (i.e buildApp-User07). Select the *Create a free-style job* option and save.
 On the Main configuration page of the newly created job make sure **JDK 8** is the selected JDK.
 
 ![alt text](images/06.job.main.png "Configure job")
@@ -97,8 +97,8 @@ Change to **Deploy** page in DevCS and create **New Configuration**
 Set the following properties.
 ![alt text](images/12.deploy.config.png "Deployment Configuration")
 
-- **Configuration Name**: any name to identify deployment configuration
-- **Application Name**: instance name in ACCS. This will determine the application's URL.
+- **Configuration Name**: any name to identify deployment configuration. Again, please prefix this with your user (i.e springboot-deploy-2-accs-user06).
+- **Application Name**: instance name in ACCS. This will determine the application's URL. Again, please prefix this with your user (i.e springboot-sample-user06).
 - **Deployment Target**: click **New** and select Application Container Cloud... and define connection properties such as **Data center**, **Identity Domain** and **credentials**. 
 ![alt text](images/13.accs.config.png "ACCS Configuration")
 - **Type**: select **Automatic** which means auto deploy after a successful execution of the build job. Select your previously created job and its artifact to deploy.
