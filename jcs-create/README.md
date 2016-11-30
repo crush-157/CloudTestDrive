@@ -22,13 +22,9 @@ This tutorial demonstrates how to:
 
 [Sign in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). On the dashboard click the hamburger icon on the Java tile. Select **Open Service Console**.
 
-![](images/01.png)
-
-This is the Java Cloud Service Console page. If this is the first time opening Java console then Welcome page will appear. In this case click **Go to Console** button.
-
 ![](images/02.png)
 
-+ To create new instance click **Create Service** button.
++ To create new instance click **Create Service** button and select **Java Cloud Service** in the drop down list.
 
 <kbd>
 ![](images/03.png)
@@ -72,10 +68,10 @@ The last input page is the Service Details page. The following parameters have t
 + **Database Configuration / Name**: Database Cloud Service name to store WebLogic repository data. Basically the list populated with database services within the same identity domain.
 + **Database Configuration / PDB Name**: pluggable database service identifier of the Database Cloud Service instance -provided above- which will be used to store repository schema. If you have choosen default (PDB1) during Database Cloud Service creation then leave the default here too.
 + **Database Configuration / Administrator User Name**: DBA admin to create repository schema for Java Cloud Service instance. Enter: sys.
-+ **Database Configuration / Password**: DBA admin password you provided during Database Cloud Service creation.
++ **Database Configuration / Password**: DBA admin password is shown in the same paper as the username and password.
 + **Database Configuration / For Application Schema**: It is an option to add different database service instance accessibility. For example different database used by the application and different for Java Cloud Service instance repository. You can configure later another Database Cloud Service, but here it is easier to define.
 + **Provision Load Balancer**: the save resources for sample application we will not create Load Balancer instance. Leave default: No
-+ **Cloud Storage Container**: the name of the container for Database Cloud Service instance. The format is the following: Storage-IDENTITYDOMAIN/CONTAINERNAME. The container don't need to be created in advance, because -see below- there is an option to create automatically. Now give a container name containing your user name.
++ **Cloud Storage Container**: the name of the container for Database Cloud Service instance. The format is the following: Storage-IDENTITYDOMAIN/CONTAINERNAME, for example: Storage-gse00002323/User06. The container don't need to be created in advance, because -see below- there is an option to create automatically. Now give a container name containing your user name.
 + **Cloud Storage User Name and Password**: the credentials for storage. This is the same username/password you used to sign in to Oracle Cloud Services.
 + **Create Cloud Storage Containers**: we will create a new container, so check this.
 
