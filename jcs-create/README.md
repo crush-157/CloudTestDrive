@@ -22,12 +22,12 @@ This tutorial demonstrates how to:
 
 [Sign in](../common/sign.in.to.oracle.cloud.md) to [https://cloud.oracle.com/sign-in](https://cloud.oracle.com/sign-in). On the dashboard click the hamburger icon on the Java tile. Select **Open Service Console**.
 
-![](images/02.png)
+![](images/01.png)
 
 + To create new instance click **Create Service** button and select **Java Cloud Service** in the drop down list.
 
 <kbd>
-![](images/03.png)
+![](images/welcome.png)
 </kbd>
 
 Now select the subscription type. 
@@ -75,7 +75,7 @@ The last input page is the Service Details page. The following parameters have t
 + **Cloud Storage User Name and Password**: the credentials for storage. This is the same username/password you used to sign in to Oracle Cloud Services.
 + **Create Cloud Storage Containers**: we will create a new container, so check this.
 
-![](images/08.png)
+![](images/details.png)
 
 For more details about parameters see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-88BD737C-8DA9-419A-8DBF-489BDFF9C512). Click **Next**.
 
