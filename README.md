@@ -29,6 +29,8 @@ NOTE: Before you start to use your new Oracle Public Cloud services make sure th
 + [Create Java Cloud Service Instance using user interface](jcs-create/README.md)
 If you are finished early with the first exercise in this Lab, you can also experiment a bit more with the existing JCS instance in the Cloud Test Drive environment:
 + [Oracle Java Cloud Service Policy Based Auto Scaling](jcs-autoscale/README.md)
+Or you can explore the creation of the underlying database, a step we skipped in the initial part of this lab :
++ [Create an Oracle Database instance via the GUI](dbcs-create/README.md)
 
 #### AppDev Lab 3.2 : Deploy a Bitnami opensource image onto the Oracle Compute Cloud####
 + [Deploy a Bitnami Rubi image onto the Oracle Compute Cloud](bitnami/create_account.md)
