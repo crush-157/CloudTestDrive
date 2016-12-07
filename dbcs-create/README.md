@@ -1,6 +1,6 @@
 ![](../common/images/customer.logo.png)
 ---
-# ORACLE Cloud-Native DevOps workshop #
+# ORACLE Cloud Test Drive #
 -----
 ## Create Database Cloud Service instance using user interface ##
 
@@ -69,10 +69,14 @@ Before using privateKey it is required to change the mode of the file to rw by o
 ![](images/07.png)
 For more details about parameters see the [documentation](https://docs.oracle.com/cloud/latest/dbcs_dbaas/CSDBI/GUID-D4A35763-53ED-4FBB-97BF-0366F21B05E0.htm#CSDBI3401). Click **Next**.
 
-The final page is the summary about the configuration before submit the instance creation request. Click **Create** to start the provisioning of the new service instance.
+The final page is the summary about the configuration before submit the instance creation request.
+
+ATTENTION : To save resources on our environment and to speed up this exercise, we will NOT create this new dabase.  Instead, we will use the database that is already created.
+
+==> Click "Cancel"
 ![](images/08.png)
 
-When the request has been accepted the Database Service Console page appears and shows the new instance. The instance now is in Maintenance (Progress) mode. Click on In Progress to get more information about the status.
+If you should have gone ahead and created the database, the request would have been accepted and the Database Service Console page would  show the new instance. The instance would first be in Maintenance (Progress) mode. 
 ![](images/09.png)
 
 
