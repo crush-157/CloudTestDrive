@@ -30,41 +30,36 @@ This tutorial demonstrates how to:
 ![](images/welcome.png)
 </kbd>
 
-Now select the subscription type. 
-+ Select the fully managed Oracle Java Cloud Service
+Now choose the basic parameters for your Weblogic instance :
++ Service name : the name of the new instance, please include your username, eg. User10JcsInstance1
++ For the Service Level, select the  fully managed Oracle Java Cloud Service : "Oracle Java Cloud Service"
 + Hourly billing format 
++ Weblogic Release : choose the latest version
++ Weblogic Edition : Enterprise Edition
+
 For more details about subscription types see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-98DD6CE1-480F-4AA9-8131-A1D3D274440F)
 
 <kbd>
 ![](images/jcs001.png)
 </kbd>
 
-+ Select the latest 12c Software Release.
++ Now edit the SSH Public key you will use to access this instance : it allows to connect to the VM through ssh connection using the private key. Select **Create a New Key** option and download the newly generated keypair for later usage.
 
 <kbd>
-![](images/05.png)
-</kbd>
-
-+ Select the Enterprise Edition software edition.
-
-<kbd>
-![](images/06.png)
+![](images/07.png)
 </kbd>
 
 The last input page is the Service Details page. The following parameters have to be provided:
 	
-+ **Service Name**: the name of the service instance e.g. techco
-+ **Shape**: number of OCPU and size of the RAM. Choose the smallest (default) one.
-+ **Description**: any description for your service.
 + **Cluster size**: to save resources leave the default 1. Which means one managed server.
 + **Domain Partitions**: Create mutitenant instance. Select 1 to enable partitioning.
-+ **SSH Public Key**: public key which will be uploaded to the VM during the creation. It allows to connect to the VM through ssh connection using the private key. Select **Create a New Key** option and download the newly generated keypair for later usage.
++ **Shape**: number of OCPU and size of the RAM. Choose the smallest (default) one.
 
-![](images/07.png)
-+ **Enable Administration Console**: because this instance will be available on public internet the default is that the WebLogic Admin console is not enabled. Do not forget to check in to get access to the Admin console.
 + **Username**: username of WebLogic administrator. For demo purposes you can use: weblogic
 + **Password**: WebLogic administrator's password. Don't forget to note the provided password.
++ **Enable Administration Console**: because this instance will be available on public internet the default is that the WebLogic Admin console is not enabled. Do not forget to check in to get access to the Admin console.
 + **Deploy Sample Application**: deploy the sample application. It can be useful to test accessibility (correct LB configuration, etc.) of the Java Cloud Service Instance.
+
 + **Database Configuration / Name**: Database Cloud Service name to store WebLogic repository data. Basically the list populated with database services within the same identity domain.
 + **Database Configuration / PDB Name**: pluggable database service identifier of the Database Cloud Service instance -provided above- which will be used to store repository schema. If you have choosen default (PDB1) during Database Cloud Service creation then leave the default here too.
 + **Database Configuration / Administrator User Name**: DBA admin to create repository schema for Java Cloud Service instance. Enter: sys.
@@ -75,7 +70,7 @@ The last input page is the Service Details page. The following parameters have t
 + **Cloud Storage User Name and Password**: the credentials for storage. This is the same username/password you used to sign in to Oracle Cloud Services.
 + **Create Cloud Storage Containers**: we will create a new container, so check this.
 
-![](images/details.png)
+![](images/jcs002.png)
 
 For more details about parameters see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-88BD737C-8DA9-419A-8DBF-489BDFF9C512). Click **Next**.
 
