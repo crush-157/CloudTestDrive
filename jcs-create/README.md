@@ -40,7 +40,7 @@ Now choose the basic parameters for your Weblogic instance :
 For more details about subscription types see the [documentation](https://docs.oracle.com/cloud/latest/jcs_gs/JSCUG/GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2.htm#JSCUG-GUID-98DD6CE1-480F-4AA9-8131-A1D3D274440F)
 
 <kbd>
-![](images/jcs001.png)
+![](images/jcs003.png)
 </kbd>
 
 + Now edit the SSH Public key you will use to access this instance : it allows to connect to the VM through ssh connection using the private key. Select **Create a New Key** option and download the newly generated keypair for later usage.
