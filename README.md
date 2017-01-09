@@ -33,8 +33,8 @@ If you are finished early with the first part of this lab, you can do some more 
 + Create a new database, a step we skipped in the initial part of this lab : [Create an Oracle Database instance via the GUI](dbcs-create/README.md)
 
 #### AppDev Lab 3.2 : Deploy a Bitnami opensource image onto the Oracle Compute Cloud####
-+ [Deploy a Bitnami Rubi image onto the Oracle Compute Cloud](bitnami/create_account.md)
-+ [Connect to the newly created Rubi instance](bitnami/connect.md)
++ [Deploy a Bitnami Ruby image onto the Oracle Compute Cloud](bitnami/create_account.md)
++ [Connect to the newly created Ruby instance](bitnami/connect.md)
 
 #### AppDev Lab 4.1 : Deploy a Node.js application on ACCS####
 Download the application artifacts and deploy the ZIP file on ACCS:
