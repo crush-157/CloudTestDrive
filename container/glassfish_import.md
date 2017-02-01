@@ -54,7 +54,7 @@ The service editor dialog box will open.  Fill in the basic details as shown:
 
 To be able to access the container from the outside world we need to add port mappings.
 
-Each mapping routes traffic from <host>:<port> to <container>:<port>. 
+Each mapping routes traffic from \<host>:\<port> to \<container>:\<port>. 
 
 To add the required mappings, click on the "Ports" checkbox under "Available Options" then click "+Add" and add each of the following port mappings:
 
