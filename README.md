@@ -38,7 +38,7 @@ If you are finished early with the first part of this lab, you can do some more 
 
 #### AppDev Lab 3.3 : Deploy Docker images onto the Oracle Container Cloud Service
 + [Deploy the Tomcat Docker image (included by default) onto Oracle Container Cloud Service](container/tomcat_deploy.md)
-+ [Import and deploy a Glassfish Docker (not included by default) image onto Oracle Container Cloud Service](container/glassfish_deploy.md)
++ [Import and deploy a Glassfish Docker (not included by default) image onto Oracle Container Cloud Service](container/glassfish_import.md)
 
 #### AppDev Lab 4.1 : Deploy a Node.js application on ACCS####
 Download the application artifacts and deploy the ZIP file on ACCS:
